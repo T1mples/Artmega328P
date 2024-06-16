@@ -28,7 +28,7 @@ void setup()   {
   pinMode(outp, OUTPUT);
 
   Serial.println("Why hello!");
-//   lcd.clear();
+//  lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("OZOX Elc. 2020");
    lcd.setCursor(0, 1);
